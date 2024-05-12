@@ -4,7 +4,6 @@ Some fun code stuff around the new AI Programming language Mojo!
 It is free to use, but you need to sign up for a key.
 
 ## How to use:
-1. Build Docker container with `docker build --build-arg AUTH_KEY=<you mojo key> -t mojo .`
-2. Run container with `docker run -it -v ${PWD}/code:/code mojo bash`
-3. Attach VS code to container
-4. Happy Hacking
+1. Run move into docker folder and run `docker-compose up --build`
+2. Go to `http://127.0.0.1:8888/lab`
+3. Create a mojo notebook and you are good to go!
